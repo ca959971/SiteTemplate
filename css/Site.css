@@ -1,0 +1,14 @@
+﻿body {
+  background: fixed;
+background-image: url(pics/notebook.jpg);
+
+color: #d9c7c6;
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav {
+  background-color: #be9b7b;
+}
+#cardText {
+  color: black;
+}
