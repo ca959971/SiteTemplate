@@ -1,4 +1,4 @@
-﻿body {
+﻿/* body {
   background: fixed;
 background-image: url(pics/notebook.jpg);
 
@@ -11,4 +11,44 @@ nav {
 }
 #cardText {
   color: black;
+} */
+
+
+
+.body-container{
+  position: absolute;
+
+  width: 85%;
+  background-color: gray;
+  left: 15%;
+  margin-left:-100px;
+height: 100%;
+}
+
+/* HERO IMAGE */
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/cameronrobinson/Desktop/CCAD/SiteTemplate/Pics/coffee-1284041_1920.jpg"); */
+background-image: url("/Users/cameronrobinson/Desktop/CCAD/SiteTemplate/Pics/coffee-1284041_1920.jpg");
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
